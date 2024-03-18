@@ -35,29 +35,25 @@ li{
     display: flex;
 }
 
-/* .column-1 {
-    line-height: 1.8;
-}
-.column-2{
-    line-height: 1.8;
-}
-.column-3{
-    line-height: 1.8;
-}
-.column-4{
-    line-height: 1.8;
-} */
-
-
-
 .social-media {
     display: flex;
-    gap: 5px;
+    gap: 6px;
 }
 
 @media only screen and (max-width: 768px) {
     .row {
       flex-direction: column;
       margin-left: 30px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .horizontal {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .row{
+      flex-direction: column; 
+      display: flex;
     }
   }
